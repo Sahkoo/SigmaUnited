@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+    <title>My Site</title>
+    <link rel="shortcut icon" href="img/sport-car.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/my.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC&display=swap" rel="stylesheet">
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+    <header class="header">
+        <!-- <a href="#" class="logo">𝕾𝖎𝖌𝖒𝖆 𝖀𝖓𝖎𝖙𝖊𝖉</a> -->
+        <button class="header__burger-btn">
+            <!-- <span></span> -->
+        </button>
+        <div class="logo-container">
+            <h1 id="page-logo" class="logo"><!-- 𝕺𝖑𝖊𝖐𝖘𝖆𝖓𝖉𝖗 -->𝕾𝖎𝖌𝖒𝖆 𝖀𝖓𝖎𝖙𝖊𝖉</h1>
+        </div>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="/main.html" class="nav-item">Home</a></li>
+                <li><a href="#" class="nav-item">About us</a></li>
+                <li><a href="#" class="nav-item" id="tech">Technologies</a>
+                    <ul class="tech__dropdawn" id="tech__dropdawn">
+                        <li><a
+                                href="https://developer.mozilla.org/ru/docs/Learn/Getting_started_with_the_web/HTML_basics">HTML</a>
+                        </li>
+                        <li><a
+                                href="https://developer.mozilla.org/ru/docs/Learn/Getting_started_with_the_web/CSS_basics">CSS</a>
+                        </li>
+                        <li><a
+                                href="https://developer.mozilla.org/ru/docs/Learn/Getting_started_with_the_web/JavaScript_basics">JavaScript</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#" class="nav-item" id="cont">Contact</a>
+                    <ul class="cont__dropdawn">
+                        <li>
+                            <div class="header_contacts">
+                                <a href="https://t.me/velikkk">
+                                    velikkk
+                                    <img src="/img/tg-favicon.png" alt="tg" class="tg-icon">
+                                    <a href="#">Сайт</a>
+                                </a>
+                            </div>
+                            <div class="header_contacts">
+                                <a href="https://t.me/ALREADY_00_BROKEN">
+                                    Sanya
+                                    <img src="/img/tg-favicon.png" alt="" class="tg-icon">
+                                    <a href="/my.html">Сайт</a>
+                                </a>
+                            </div>
+                            <div class="header_contacts">
+                                <a href="https://t.me/akerman1337">
+                                    Akerman
+                                    <img src="/img/tg-favicon.png" alt="" class="tg-icon">
+                                    <a href="#">Сайт</a>
+                                </a>
+                            </div>
+                            <div class="header_contacts">
+                                <a href="https://t.me/Sigm0000000000000">
+                                    Sigm
+                                    <img src="/img/tg-favicon.png" alt="" class="tg-icon">
+                                    <a href="#">Сайт</a>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <button class="header__burger-btn" id="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <div class="loadding">
+        <div class="terminal-loader">
+            <div class="terminal-header">
+                <div class="terminal-title">Status</div>
+                <div class="terminal-controls">
+                    <div class="control close"></div>
+                    <div class="control minimize"></div>
+                    <div class="control maximize"></div>
+                </div>
+            </div>
+            <div class="text">Loading...</div>
+        </div>
+    </div>
+
+
+    <!-- <div class="all_cards">
+    <div class="card1">
+        <div class="card-image1"><img class="me"
+                src="https://i.ytimg.com/vi/NPh_Y6LtTBc/hqdefault.jpg"
+                alt="" draggable="false"></div>
+        <div class="category"> Про себе </div>
+        <div class="heading"> Сашко, має друга Ярика, який любить грати CS2
+            <div class="author"> Цю точку для <span class="name">реклами</span> хотів купити Ярослав</div>
+        </div>
+    </div>
+
+    <div class="card2">
+        <div class="card-image2"><img class="me"
+                src="https://c4.wallpaperflare.com/wallpaper/727/606/482/toyota-supra-toyota-supra-mk4-toyota-supra-mk3-car-hd-wallpaper-preview.jpg"
+                alt="" draggable="false"></div>
+        <div class="category">Auto</div>
+        <div class="heading"> Улюбленим автомобілем Сашка являється Toyota Supra Mk-4
+            <div class="author"> Цю точку для  хотів купити Ярослав</div>
+        </div>
+    </div>
+
+    <div class="card3">
+        <div class="card-image2"><img class="me"
+                src="https://auto-dor.com.ua/wp-content/uploads/2019/06/cvet-mashiny.jpg"
+                alt="" draggable="false"></div>
+        <div class="category">Hobby</div>
+        <div class="heading"> З дитинства обожнював маленькі моделі авто, та колекціонував їх
+            <div class="author"> Але зараз паше на роботі</div>
+        </div>
+    </div>
+
+    <div class="card4">
+        <div class="card-image1"><img class="me"
+                src="https://static.tildacdn.com/tild3663-3261-4730-b762-383831356634/IMG_9824.jpg"
+                alt="" draggable="false"></div>
+        <div class="category">Body</div>
+        <div class="heading"> Сашко хоче мати підтягнуте спортивне тіло
+            <div class="author"> Але зараз він паше на роботі</div>
+        </div>
+    </div>
+</div> -->
+
+
+
+
+
+    <div class="container">
+        <h1>𝔗𝔢𝔰𝔱 𝔉𝔬𝔯𝔪</h1>
+        <form class="testFormch" id="testForm">
+            <div class="question">
+                <label for="question1">1. JavaScript -</label><br>
+                <input type="radio" name="question1" value="1" required> динамічна, об'єктно-орієнтована прототипна мова
+                програмування<br>
+                <input type="radio" name="question1" value="2"> об'єктно-орієнтована прототипна мова програмування<br>
+                <input type="radio" name="question1" value="3"> динамічна прототипна мова програмування<br>
+                <input type="radio" name="question1" value="4"> немає вірної відповіді
+            </div>
+            <div class="question">
+                <label for="question2">2. HTML -</label><br>
+                <input type="radio" name="question2" value="1" required>мова програмування <br>
+                <input type="radio" name="question2" value="2"> мова розмітки документів для перегляду вебсторінок у
+                браузері<br>
+                <input type="radio" name="question2" value="3"> стандартизована мова розмітки документів для перегляду
+                вебсторінок у браузері<br>
+                <input type="radio" name="question2" value="4"> проста розмітка коду
+            </div>
+            <div class="question">
+                <label for="question3">3. Що прописати для центрування блоку коду?</label><br>
+                <input type="radio" name="question3" value="1" required> border-radius<br>
+                <input type="radio" name="question3" value="2"> position<br>
+                <input type="radio" name="question3" value="3"> padding<br>
+                <input type="radio" name="question3" value="4"> margin
+            </div>
+            <div class="question">
+                <label for="question4">4. Що робить Object.keys()?</label><br>
+                <input type="radio" name="question4" value="1" required> повертає масив рядкових елементів<br>
+                <input type="radio" name="question4" value="2"> повертає масив елементів<br>
+                <input type="radio" name="question4" value="3"> я таке не вчив<br>
+                <input type="radio" name="question4" value="4"> повертає масив із власних перерахованих властивостей
+                переданого об'єкта
+            </div>
+            <div class="question">
+                <label for="question5">5. FormData() це?</label><br>
+                <input type="radio" name="question5" value="1" required> масив об'єктів<br>
+                <input type="radio" name="question5" value="2"> об'єкт який містить ключі, значення для передачі даних
+                на сервер.<br>
+                <input type="radio" name="question5" value="3"> функція, яка виконує роль об'єкта в масиві ключових
+                параметрів<br>
+                <input type="radio" name="question5" value="4"> немає вірної відповіді
+            </div>
+            <div class="question">
+                <label for="question6">6. Чи можна зробити анімації на чистому css?</label><br>
+                <input type="radio" name="question6" value="1" required> ні<br>
+                <input type="radio" name="question6" value="2"> тільки з HTML<br>
+                <input type="radio" name="question6" value="3"> якщо тільки використовувати margin<br>
+                <input type="radio" name="question6" value="4"> за допомогою transitions можна
+            </div>
+            <div class="question">
+                <label for="question7">7. Хто створив html?</label><br>
+                <input type="radio" name="question7" value="1" required> Майкл Джордан<br>
+                <input type="radio" name="question7" value="2"> <!-- Тім  -->Бернерс-Лі<br>
+                <input type="radio" name="question7" value="3"> Мессі<br>
+                <input type="radio" name="question7" value="4"> Фарадей
+            </div>
+            <div class="question">
+                <label for="question8">8. Хто створив js?</label><br>
+                <input type="radio" name="question8" value="1" required> функція, яка зберігає доступ до своєї
+                зовнішньої області видимості навіть після того, як зовнішня функція виконана<br>
+                <input type="radio" name="question8" value="2"> Стів Джобс<br>
+                <input type="radio" name="question8" value="3"> Галілео Галілей<br>
+                <input type="radio" name="question8" value="4"> Брендан Айк
+            </div>
+            <div class="question">
+                <label for="question9">9. Що таке замикання (closure) у JavaScript?</label><br>
+                <input type="radio" name="question9" value="1" required> функція, яка зберігає доступ до своєї
+                зовнішньої області видимості навіть після того, як зовнішня функція виконана<br>
+                <input type="radio" name="question9" value="2"> дозволяє функціям запам'ятовувати і працювати з змінними
+                з області видимості, в якій вона була створена.<br>
+                <input type="radio" name="question9" value="3"> проміжуток коду, в якому розписане тіло функції<br>
+                <input type="radio" name="question9" value="4"> всі відповіді вірні
+            </div>
+            <div class="question">
+                <label for="question10">10. Що таке DOM?</label><br>
+                <input type="radio" name="question10" value="1" required> дозволяє JavaScript маніпулювати структурою
+                документа<br>
+                <input type="radio" name="question10" value="2"> об'єктна модель документа HTML або XML<br>
+                <input type="radio" name="question10" value="3"> DOM на дереві<br>
+                <input type="radio" name="question10" value="4"> всі відповіді вірні
+            </div>
+            <div class="question">
+                <label for="question11">11. Що таке CSS?</label><br>
+                <input type="radio" name="question11" value="1" required> стиль одягу<br>
+                <input type="radio" name="question11" value="2"> ну кароче робить сайт гарним<br>
+                <input type="radio" name="question11" value="3"> мова стилізації<br>
+                <input type="radio" name="question11" value="4"> мова програмування
+            </div>
+            <div class="question">
+                <label for="question12">12. Що таке "flexbox" в CSS?</label><br>
+                <input type="radio" name="question12" value="1" required> стилі можуть бути успадковані або
+                перевизначені в залежності від специфічності селекторів<br>
+                <input type="radio" name="question12" value="2"> модель компонування, яка дозволяє розташовувати
+                елементи в контейнері<br>
+                <input type="radio" name="question12" value="3"> потужна система компонування, яка дозволяє створювати
+                складні двовимірні макети за допомогою рядків і стовпців<br>
+                <input type="radio" name="question12" value="4"> немає правильної відповіді
+            </div>
+            <div class="question">
+                <label for="question13">13. Що таке медіа-запити в CSS?</label><br>
+                <input type="radio" name="question13" value="1" required> застосунок для CSS ,який підключається
+                виключно через link<br>
+                <input type="radio" name="question13" value="2"> це концепція в CSS, яка визначає, як елементи на
+                веб-сторінці обмежені коробками<br>
+                <input type="radio" name="question13" value="3"> підключення шрифтів для текстів<br>
+                <input type="radio" name="question13" value="4"> використовуються для застосування стилів у залежності
+                від характеристик пристрою
+            </div>
+            <div class="question">
+                <label for="question14">14. Як розшифровується HTML</label><br>
+                <input type="radio" name="question14" value="1" required> HypersTold Makeup Lidl<br>
+                <input type="radio" name="question14" value="2"> HyperosTeacher Mark Loading<br>
+                <input type="radio" name="question14" value="3"> HyperText Markup Language<br>
+                <input type="radio" name="question14" value="4"> HouseTitle Miami Lie
+            </div>
+            <div class="question">
+                <label for="question15">15. Що таке форми в HTML?</label><br>
+                <input type="radio" name="question15" value="1" required> використовуються для збору даних від
+                користувачів<br>
+                <input type="radio" name="question15" value="2"> форма для створення ігор<br>
+                <input type="radio" name="question15" value="3"> за допомогою форми, ми можемо побудувати структуру
+                js<br>
+                <input type="radio" name="question15" value="4"> немає правильної відповіді
+            </div>
+
+
+
+
+            <button class="buttonnn" type="submit">Відповісти
+            </button>
+        </form>
+        <div class="results"></div>
+    </div>
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <ul>
+                    <li class="text2"><a href="#">𝔉.𝔄.𝔔</a></li>
+                    <li class="text2"><a href="#">𝔖ℑ𝔗𝔈𝔐𝔄𝔓</a></li>
+                    <li class="text2"><a href="#">ℭ𝔒𝔑𝔇ℑ𝔗ℑ𝔒𝔑𝔖</a></li>
+                    <li class="text2"><a href="#">𝔏ℑℭ𝔈𝔑𝔖𝔈𝔖</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <ul>
+                    <li class="text2"><a href="#">𝔄𝔅𝔒𝔘𝔗</a></li>
+                    <li class="text2"><a href="#">𝔖𝔈ℜ𝔙ℑℭ𝔈𝔖</a></li>
+                    <li class="text2"><a href="#">𝔗𝔈ℭℌ𝔑𝔒𝔏𝔒𝔊ℑ𝔈𝔖</a></li>
+                    <li class="text2"><a href="#">ℌ𝔒𝔚 𝔗𝔒</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>ℭ𝔬𝔫𝔱𝔞𝔠𝔱</h3>
+                <p>𝔈𝔪𝔞𝔦𝔩: 𝔦𝔫𝔣𝔬@𝔠𝔬𝔪𝔭𝔞𝔫𝔶.𝔠𝔬𝔪</p>
+                <p>𝔓𝔥𝔬𝔫𝔢: +380 96 534 9997</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 𝔖ℑ𝔊𝔐𝔄 𝔘𝔑ℑ𝔗𝔈𝔇. 𝔄𝔩𝔩 𝔯𝔦𝔤𝔥𝔱𝔰 𝔯𝔢𝔰𝔢𝔯𝔳𝔢𝔡.</p>
+        </div>
+    </footer>
+
+
+
+
+    <script src="js/my.js"></script>
+</body>
+
+</html>
